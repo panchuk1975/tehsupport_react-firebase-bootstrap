@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkgrey;
+}
+
+.bg-img {
+  background: url("../pictures/tu160.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+@media all and (max-width: 1081px) {
+  .bg-img {
+    background: url("../pictures/tu160about.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+}
+
+.bg-img:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+.content {
+  position: relative;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 999;
+  width: 55%;
+  text-align: center;
+  padding: 10px 32px;
+  background: rgba(255, 255, 255, 0.04);
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.75);
+}
+
+.content:hover {
+  position: relative;
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(92, 92, 92, 0.75);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(92, 92, 92, 0.75);
+  box-shadow: 0px 0px 10px 3px rgba(92, 92, 92, 0.75);
+}
+#loginConteiner{
+    top: 45%;
+}
+.content header {
+  color: white;
+  font-size: 33px;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+  font-family: "Montserrat", sans-serif;
+}
+.content-about {
+  background: url("../pictures/help.jpg");
+  transform: translate(0%, -3%);
+  width: 100%;
+  text-align: center;
+  user-select: none;
+  padding: 30px 32px;
+  margin: 30px 0 0 0;
+}
+.content-about header {
+  color: rgb(175, 175, 175);
+  font-size: 33px;
+  font-weight: 600;
+  margin: 0 0 5px 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.field {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  background: rgba(255, 255, 255, 0.94);
+}
+
+.field span {
+  color: #222;
+  width: 40px;
+  line-height: 45px;
+}
+
+.field input {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #222;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.spase {
+  margin-top: 12px;
+}
+
+.pass {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.pass a {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.pass:hover a {
+  text-decoration: underline;
+}
+
+input[type="submit"] {
+  background: #3498db;
+  border: 1px solid #2691d9;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #2691d9;
+}
+
+.login {
+  color: white;
+  margin: 20px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.link {
+  display: flex;
+  cursor: pointer;
+  color: white;
+  margin: 0 0 20px 0;
+}
+
+.link span {
+  font-size: 16px;
+  margin-left: 8px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.signup {
+  color: white;
+  font-size: 13.5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.signup a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.signup a:hover {
+  text-decoration: underline;
+}
+
+.show,
+.confirmShow {
+  position: absolute;
+  color: #222;
+  cursor: pointer;
+  right: 13px;
+  font-size: 13px;
+  font-weight: 700;
+  display: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.password:valid ~ .show {
+  display: block;
+}
+
+.confirmPassword:valid ~ .confirmShow {
+  display: block;
+}
+
+.notConfirm {
+  color: red;
+}
+.description {
+  position: relative;
+  color: rgb(175, 175, 175);
+  text-align: justify;
+  text-indent: 40px;
+}
+.descriptionImg {
+  margin: 0 25px 10px 0;
+  float: left;
+}
+.boxes {
+  overflow: hidden;
+  height: 2000px;
+  max-height: 500vh;
+}

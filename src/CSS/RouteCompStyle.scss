@@ -1,0 +1,62 @@
+/* -------------------------------Route Table----------------------------------*/
+#routeTableBasis {
+  height: 25px;
+  margin: 1px 0 1px 0;
+}
+.routeTable {
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 4px 3px rgb(48, 47, 48);
+  -moz-box-shadow: 0px 0px 4px 3px rgb(48, 47, 48);
+  box-shadow: 0px 0px 4px 3px rgb(48, 47, 48);
+  font-size: 14px;
+  color: rgb(199, 198, 198);
+  padding: 0 5px 0 5px;
+  margin: 2px 0 2px 0;
+}
+// .routeTable td{
+//     border: 1px solid white;
+// }
+// .routeHeadTable td{
+//     border: 1px solid white;
+// }
+.routeTable:hover {
+  color: rgb(3, 192, 192);
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 5px #33ffff, 0 0 5px #66ffff;
+  -moz-box-shadow: 0 0 5px #33ffff, 0 0 5px #66ffff;
+  box-shadow: 0 0 5px #33ffff, 0 0 5px #66ffff;
+}
+#deleteRouteBtn {
+  font-size: 7px;
+  padding: 0 5px 0 5px;
+  margin: 5px 0 3px 0;
+  color: #ff2400;
+}
+#deleteRouteBtn:hover {
+  color: black;
+}
+#countRoutesGroup {
+  font-size: 14px;
+  margin: 2px 30px 0 20px;
+}
+#countRoutesGroup small {
+  font-size: 11px;
+}
+.headStart {
+  color: #970a97;
+}
+.headAdd {
+  color: #4c6faf;
+}
+.headExpended {
+  color: #a72646;
+}
+.headEnd {
+  color: #0fa80f;
+}
+#createRouteDate {
+  width: 90%;
+  margin: 0 0px 0 0;
+  text-align: center;
+}

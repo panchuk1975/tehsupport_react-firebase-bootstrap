@@ -1,0 +1,49 @@
+/* -----------------------------List Table------------------------------*/
+#innerLi {
+  margin: 5px 0 0 0;
+  padding: 0;
+  background: none;
+  box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.89);
+}
+.listTable {
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 4px 2px rgb(95, 94, 94);
+  -moz-box-shadow: 0px 0px 4px 2px rgb(95, 94, 94);
+  box-shadow: 0px 0px 4px 2px rgb(95, 94, 94);
+  font-size: 14px;
+  color: rgb(192, 191, 191);
+  padding: 0 5px 0 5px;
+}
+.listTable:hover {
+  color: rgb(3, 192, 192);
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 5px #33ffff, 0 0 5px #66ffff;
+  -moz-box-shadow: 0 0 5px #33ffff, 0 0 5px #66ffff;
+  box-shadow: 0 0 5px #33ffff, 0 0 5px #66ffff;
+}
+#listButtonsGrup button {
+  font-size: 12px;
+  color: rgb(206, 202, 202);
+  margin: 0 0 5px 0;
+}
+.liquidValue {
+  color: rgb(146, 145, 145);
+}
+#deleteListBtn {
+  font-size: 7px;
+  padding: 0 5px 0 5px;
+  margin: 2px 0 2px 0;
+  color: #ff2400;
+}
+#deleteListBtn:hover {
+  color: black;
+}
+.clouseListFormBasis {
+  padding: 0 25px 0 25px;
+}
+.clouseListForm {
+  width: 100%;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+}

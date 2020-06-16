@@ -1,0 +1,94 @@
+/*--------------------------Common Liquids------------------------------*/
+.createTimeLiquidsBasis {
+  padding: 1px 10px 10px 10px;
+  background: url("../pictures/cover.jpg");
+  border-radius: 5px;
+  background-position: top;
+  background-size: cover;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.createTimeLiquidsBasis input {
+  font-size: 13px;
+}
+#createDateBtn {
+  color: black;
+  padding: 0 0 0 0;
+  height: 25px;
+  width: 122px;
+}
+.createDateBtnConteiner {
+  width: 122px;
+  height: 25px;
+  margin: 20px 0px 0 0px;
+}
+.createLiquidsBasis {
+  margin: 17px 0 0 0;
+  padding: 1px 10px 10px 10px;
+  background: url("../pictures/cover.jpg");
+  border-radius: 5px;
+  background-position: top;
+  background-size: cover;
+  width: 78vh;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+/*------------------------------------------------------------------------*/
+.liquidName {
+  color: rgb(43, 223, 52);
+  font-weight: 300;
+}
+#liquidNameCol {
+  text-align: center;
+  width: 100%;
+}
+#liquidTable {
+  width: 100%;
+  text-align: center;
+}
+#liquidTable td {
+  width: 25%;
+}
+.liquidbalanceStart {
+  font-weight: 300;
+  color: rgb(160, 64, 250);
+}
+.liquidbalanceRecived {
+  font-weight: 300;
+  color: rgb(58, 45, 245);
+}
+.liquidbalanceExpended {
+  font-weight: 300;
+  color: rgb(248, 24, 61);
+}
+.liquidbalanceFinish {
+  font-weight: 300;
+  color: rgb(15, 216, 31);
+}
+#createExelBtn {
+  height: 20px;
+  background: url("../pictures/cover.jpg");
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  color: rgb(224, 223, 223);
+  text-decoration: none;
+  padding: 0px 0 22px 0;
+  border: 1px solid rgb(141, 140, 140);
+  margin: 0px 2px 5px 2px;
+  -webkit-box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.75);
+}
+#createExelBtn:hover {
+  color: rgb(37, 233, 70);
+  border: 1px solid rgb(37, 233, 70);
+  -webkit-box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.75);
+}
+#liquidsConteiner {
+  margin: 0px 0px 20px 0px;
+}
