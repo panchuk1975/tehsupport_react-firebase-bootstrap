@@ -20,7 +20,7 @@
     "firebase-functions": "^3.6.1",
     "http2": "^3.3.7",
     "moment": "^2.24.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "normalize-object": "^2.0.1",
     "npm-check-updates": "^5.0.0",
     "react": "^16.13.1",
